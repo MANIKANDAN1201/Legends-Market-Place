@@ -1,0 +1,174 @@
+body {
+  background-color: white;
+  color: black; /* Change text color to black */
+}
+
+.modal-header {
+  background: #0193e7;
+  color: #0193e7;
+  font-weight: 800;
+}
+
+.modal-body {
+  font-weight: 800;
+}
+
+.modal-body ul {
+  list-style: none;
+}
+
+.modal .btn {
+  background: #d67b22;
+  color: #fff;
+}
+
+.modal a {
+  color: #d67b22;
+}
+
+.modal-backdrop {
+  position: inherit !important;
+}
+
+#login_button,
+#register_button {
+  background: none;
+  color: #d67b22 !important;
+}
+
+#query_button {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  padding: 10px 80px;
+  background-color: #d67b22;
+  color: #fff;
+  border-color: #f05f40;
+  border-radius: 2px;
+}
+
+@media (max-width: 767px) {
+  #query_button {
+    padding: 5px 20px;
+  }
+}
+.book-block {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-block:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.book-block .tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #d67b22;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.book-block .tag-side {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.book-block img.book {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center align */
+}
+
+.book-block hr {
+  border-color: #ddd;
+  margin: 10px 0;
+}
+
+.book-block .price {
+  font-weight: bold;
+  color: #333;
+}
+
+.book-block .discount {
+  color: #f08080; /* Light coral */
+}
+
+#bannerimage {
+  width: 100%;
+  background-image: url(img/bookbackgrd.jpg);
+  height: 405px;
+  background-color: rgb(0, 0, 0);
+  background-position: center;
+}
+#aboutus {
+  padding: 40px 0; /* Adjust as needed */
+}
+
+#aboutus h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333; /* Adjust text color */
+}
+
+#aboutus p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666; /* Adjust text color */
+}
+
+/* Additional styles to make it more attractive */
+#aboutus {
+  background-color: #add8e6; /* Background color */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+#aboutus h2 {
+  margin-bottom: 20px; /* Space between heading and paragraph */
+}
+
+#aboutus p {
+  margin-bottom: 0; /* Remove default margin */
+}
+/* Custom styles */
+h1.display-4 {
+  color: #333; /* Adjust text color */
+  font-weight: bold;
+}
+
+p.lead {
+  color: #666; /* Adjust text color */
+}
+
+h2.h4 {
+  color: #555; /* Adjust text color */
+  font-weight: bold; /* Adjust
+}
+
+.carousel-inner .item img {
+        width: 100%;
+        height: auto;
+
+        max-height: 500px;
+        object-fit: cover; 
+    }
+
+
+.text {
+    color: black; /* Change text color to black */
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 40px;
+}
