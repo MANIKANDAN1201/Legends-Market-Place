@@ -1,0 +1,246 @@
+/* Custom CSS for Checkout page */
+
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-logo {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.breadcrumb-item {
+    display: inline;
+    margin-right: 5px;
+}
+
+.breadcrumb-item.active {
+    font-weight: bold;
+}
+
+/* Account Login and Registration Forms */
+.new-account-login .title-left h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.new-account-login h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.review-form-box {
+    display: none;
+}
+
+.review-form-box .form-group {
+    margin-bottom: 20px;
+}
+
+.review-form-box input[type="text"],
+.review-form-box input[type="email"],
+.review-form-box input[type="password"] {
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.review-form-box button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.review-form-box button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Checkout Address Form */
+.checkout-address .title-left h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.checkout-address input[type="text"],
+.checkout-address input[type="email"] {
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.checkout-address select {
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+/* Shipping Method Box */
+.shipping-method-box .title-left h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.shipping-method-box .custom-control-label {
+    font-size: 18px;
+}
+
+/* Order Box */
+.order-box .title-left h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.order-box .font-weight-bold {
+    font-size: 18px;
+}
+
+.order-box hr {
+    margin: 20px 0;
+    border-top: 1px solid #ccc;
+}
+
+/* Shopping Cart Box */
+.odr-box .title-left h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.odr-box .media {
+    margin-bottom: 20px;
+}
+
+.odr-box .media-body {
+    margin-left: 20px;
+}
+
+.odr-box .small {
+    font-size: 14px;
+    color: #888;
+}
+
+/* Shopping Box Button */
+.shopping-box {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.shopping-box .btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.shopping-box .btn:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-text {
+    color: #888;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-logo {
+        font-size: 20px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    .breadcrumb-item {
+        font-size: 14px;
+    }
+
+    .new-account-login .title-left h3,
+    .checkout-address .title-left h3,
+    .shipping-method-box .title-left h3,
+    .order-box .title-left h3,
+    .odr-box .title-left h3 {
+        font-size: 20px;
+    }
+
+    .new-account-login h5,
+    .checkout-address h5 {
+        font-size: 16px;
+    }
+
+    .review-form-box button[type="submit"],
+    .shopping-box .btn {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+
+    .odr-box .media-body {
+        margin-left: 10px;
+    }
+}
